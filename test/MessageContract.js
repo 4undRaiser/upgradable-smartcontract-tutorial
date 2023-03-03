@@ -1,7 +1,7 @@
 const { ethers, upgrades } = require("hardhat");
 const { expect } = require("chai");
 
-describe("MessageContractV2", function () {
+describe("MessageContract Upgrade:", function () {
   let contractV1, contractV2, owner;
 
   before(async function () {
